@@ -1,3 +1,46 @@
+/*Header*/
+
 .navbar.header {
     background-image: linear-gradient(180deg, #050A22, #0B1851);
-  }
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-image: linear-gradient(180deg, #0B1851, #050A22);
+    color: white;
+    padding: 20px 0 50px;
+}
+
+.jumboparagraph{
+    color: #527CEB;
+    padding: 30px 0;
+}
+
+/*Buttons*/
+
+.button{
+    padding: 5px 20px;
+    color: white;
+    border: none;
+}
+
+.button.purple{
+    background-image: linear-gradient(to right, #F9636B, #B6246E);
+    margin-right: 10px;
+}
+
+.button.blue{
+    background-image: linear-gradient(to right, #527CEB, #1E3F83);
+    margin-left: 10px;
+}
+
+.button.shadow{
+    box-shadow: 4px 4px 2px #F9636B;
+}
+
+/*Services Cards*/
+
+.servicescards{
+    padding: 70px 0;
+}
