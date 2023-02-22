@@ -3,6 +3,95 @@ const {createApp} = Vue
 const app = createApp ({
     data (){
         return{
+            //Header//
+            linkheader: [
+                {
+                    button: 'Home',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                },
+                {
+                    button: 'About',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                },
+                {
+                    button: 'Services',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                },
+                {
+                    button: 'Blog',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                },
+                {
+                    button: 'Contact',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                },
+                {
+                    button: 'Porfolio',
+                    link: [
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        },
+                        {
+                            url: ''
+                        }
+                    ]
+                }
+            ],
+
+            //Main//
             services: [
                 {
                     img: './img/Group-247.png',
@@ -71,7 +160,46 @@ const app = createApp ({
                 './img/clienty-2.png',
                 './img/clienty-3.png',
                 './img/clienty-4.png'
-            ]
+            ],
+
+            //Footer//
+            quicklinks: [
+                {
+                    button: 'Services',
+                    url: ''
+                },
+                {
+                    button: 'Contacts',
+                    url: ''
+                },
+                {
+                    button: 'Blog',
+                    url: ''
+                }
+            ],
+
+            resources: [
+                {
+                    button: 'Art Design',
+                    url: ''
+                },
+                {
+                    button: 'Computer',
+                    url: ''
+                },
+                {
+                    button: 'IT News',
+                    url: ''
+                },
+                {
+                    button: 'Networking',
+                    url: ''
+                },
+                {
+                    button: 'Web Security',
+                    url: ''
+                }
+            ],
         }
     }
 })
