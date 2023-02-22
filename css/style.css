@@ -21,6 +21,13 @@
     padding-right: 200px;
 }
 
+/*Start Project*/
+.bg-business{
+    background-image: url(../img/nemoodar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /*Buttons*/
 
 .button{
@@ -100,3 +107,25 @@
 }
 
 /*Subscribe*/
+.btn-subscribe{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.subscribe{
+    background-image: linear-gradient(to right, #F9636B, #B6246E);
+    padding: 50px 0;
+    color: white;
+}
+
+.last-section{
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        #0B1851 50%,
+        #0B1851 100%
+    );
+}
