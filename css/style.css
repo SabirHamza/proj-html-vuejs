@@ -68,3 +68,35 @@
 .point.active{
     background-color: #B6246E;
 }
+
+/*Blogs*/
+
+.blog-bg{
+    background-image: url(../img/studio-republic-644339-unsplash-1380x703.jpg);
+    color: white;
+}
+
+.blog{
+    color: white;
+    background-image: linear-gradient(90deg, #0B1851, #050A22);
+}
+
+.readmore{
+    border: none;
+    background-color: white;
+    padding: 0 20px;
+}
+
+/*Review*/
+
+.client{
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid #B6246E;
+}
+
+.stars{
+    color: #B6246E;
+}
+
+/*Subscribe*/
