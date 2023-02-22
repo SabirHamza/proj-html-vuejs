@@ -17,6 +17,10 @@
     padding: 30px 0;
 }
 
+.p-section{
+    padding-right: 200px;
+}
+
 /*Buttons*/
 
 .button{
@@ -43,4 +47,24 @@
 
 .servicescards{
     padding: 70px 0;
+}
+
+.arrow{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 20px 2px;
+    background-color: #BBBBBB;
+}
+
+.point.active{
+    background-color: #B6246E;
 }
